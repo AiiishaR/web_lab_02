@@ -25,6 +25,11 @@
         </nav>
     </header>
 
+    <!-- Marquee Banner -->
+    <marquee behavior="scroll" direction="left" scrollamount="6" class="marquee-banner">
+        📢 Admissions Open | Scholarships Available | Upcoming Events: Convocation 2025
+    </marquee>
+
     <!--Hero Section-->
     <section class="hero-section">
         <div class="hero-text">
@@ -49,30 +54,42 @@
             </div>
         </div>
     </section>
+
     <!-- Cards Section -->
     <section class="cards-section">
         <h2>Latest Announcements</h2>
         <div class="cards-grid">
-        <article class="card">
-            <h3>News Title 1</h3>
-            <p>Some short description about the announcement.</p>
-        </article>
-        <article class="card">
-            <h3>News Title 2</h3>
-            <p>Some short description about the announcement.</p>
-        </article>
-        <article class="card">
-            <h3>News Title 3</h3>
-            <p>Some short description about the announcement.</p>
-        </article>
+            <article class="card">
+                <h3>News Title 1</h3>
+                <p>Some short description about the announcement.</p>
+            </article>
+            <article class="card">
+                <h3>News Title 2</h3>
+                <p>Some short description about the announcement.</p>
+            </article>
+            <article class="card">
+                <h3>News Title 3</h3>
+                <p>Some short description about the announcement.</p>
+            </article>
         </div>
     </section>
+
+    <!-- Modal Trigger -->
+    <section class="modal-demo">
+        <button popovertarget="infoModal" class="btn">Open Info Modal</button>
+    </section>
+
+    <!-- Modal -->
+    <div id="infoModal" popover class="modal">
+        <h3>Important Announcement</h3>
+        <p>Admissions are now open for Fall 2025. Apply before the deadline!</p>
+        <button popovertarget="infoModal" popovertargetaction="hide" class="btn">Close</button>
+    </div>
 
     <!-- Footer -->
     <footer>
         <p>&copy; 2025 Bahria University Replica | Designed for Educational Purposes</p>
     </footer>
 
-    
 </body>
 </html>

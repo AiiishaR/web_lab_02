@@ -137,3 +137,28 @@ footer {
     text-align: center;
   }
 }
+
+/* Marquee Banner */
+.marquee-banner {
+  background: #002147;
+  color: #fff;
+  padding: 0.5rem;
+  font-weight: bold;
+}
+
+/* Modal Styling */
+.modal {
+  padding: 2rem;
+  max-width: 400px;
+  border: none;
+  border-radius: 8px;
+  background: #fff;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.3);
+}
+.modal h3 {
+  margin-bottom: 1rem;
+  color: #002147;
+}
+.modal p {
+  margin-bottom: 1.5rem;
+}
